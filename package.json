@@ -7,10 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon server.js",
     "start": "node server.js",
-    "client": "npm start --prefix ../client",
+    "client": "npm start --prefix ./client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "author": "Gautam Jha",
+  "author": "Suraj Kumar",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -24,7 +24,8 @@
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^6.9.2",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.20",
-    "openai": "^3.1.0"
+    "nodemon": "^2.0.22",
+    "openai": "^3.3.0",
+    "react-hot-toast": "^2.4.1"
   }
 }
